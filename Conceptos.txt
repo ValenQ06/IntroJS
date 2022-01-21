@@ -1,0 +1,16 @@
+JAVASCRIPT:
+console.log();: Nos permiten ver en la consola los resultados que queramos.
+nombreUsuario = "Pepe";: Esto es una variable tambien.
+let: Me permite crear una variable, y es la variable que se debe de usar, no var si no let.
+const: Se utiliza cuando quiero crear una variable cuyo valor no se debe reecribir, ni reemplazar jamas. Asi se declara: const NOMBRE = "Pepa";
+<button onclick="nombreUsuario()">Ejecutar</button>: Este es un boton que me permite ejecutar la funcion nombreUsuario.
+Todo lo que el usuario ingrese queda como un string si queremos cambiarlo hay que convertirlo.
+Con tres iguales === se compara en el if, todo lo de una variable, la clase, el tipo, la condicion.
+||: Significa ó para realizar comparaciones con el if. Ejemplo: if (ciudad === "bogota" || ciudad === "Pasto")
+__________________________________
+Ejercicio-Practica 2:
+
+ * -El usuario puede ingresar 5 departamentos de colombia.
+ * -Debe de haber un prompt, aqui decimos por favor ingrese uno de los siguientes departamentos, y hay que decirles cuales son.
+ * -Validacion con los departamentos y dependiendo de cada uno, y va a mostrar un promt en el que  le pida ingresar una ciudad del departamento, y debo de ponerlas, para que el usuario las ingrese.
+ * -Una vez seleccionada la ciudad voy a sacar un alert que yo quiera decir referente a la ciudad
